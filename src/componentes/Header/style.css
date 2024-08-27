@@ -4,12 +4,56 @@
   gap: 10px 20px;
   justify-content: space-between;
   align-items: center;
-  margin: 10px auto;
+  margin: 12px auto;
 }
 
 .header picture {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90px;
+  width: 80px;
+}
+
+.header nav ul li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  position: relative;
+}
+
+.header nav ul li a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: black;
+  width: 0%;
+  height: 1px;
+  transition: 0.3s;
+}
+
+.header nav ul li a:hover:after {
+  width: 100%;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media(max-width:430px){
+  .header {
+    justify-content: center;
+  }
+
+  .header nav ul {
+    justify-content: center;
+  }
+
+  .header nav ul li a {
+    padding: 3px 6px;
+    background: #fff0f0;
+    border-radius: 5px;
+  }
 }
