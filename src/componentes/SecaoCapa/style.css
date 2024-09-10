@@ -18,20 +18,59 @@
 }
 
 .texto-capa {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    max-width: 500px;
-    margin-top: 25px;
-    margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-width: 500px;
+  margin-top: 25px;
+  margin-left: 45px;
+  text-shadow: black 2px 2px 5px;
 }
 
 .texto-capa p,
 .texto-capa h1 {
-    font-family: "Krub", system-ui;
-    text-transform: uppercase;
+  font-family: 'Krub', system-ui;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2.4rem;
 }
 
 .texto-capa h1 {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+
+.texto-capa p {
+  font-size: 1.3rem;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+  .capa {
+    justify-content: flex-start;
+  }
+  .texto-capa h1 {
+    font-size: 2.2rem;
+  }
+  .texto-capa p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .capa {
+    justify-content: flex-end;
+    background-position: 60%;
+  }
+  .texto-capa {
+    align-items: end;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .texto-capa p {
+    font-size: 1.3rem;
+  }
+  .texto-capa h1 {
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+  }
 }
