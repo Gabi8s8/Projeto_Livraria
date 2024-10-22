@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.secao-produtos {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.secao-produtos p {
+  font-size: 1.1rem;
+}
+
+.titulos {
+  margin-bottom: 25px;
+  font-family: 'Krub', sans-serif;
+}
+
+.livros-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 50px 0px;
+  justify-content: center;
+}
+
+.card-livros picture img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.card-livros picture {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 25%;
+  justify-content: center;
+}
+
+.card-livros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d8dce8;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+.card-livros h3 {
+  font-size: 1.8rem;
+  font-family: 'Krub', sans-serif;
+  text-transform: uppercase;
+}
+
+.lista-livros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}
+
+.lista-livros p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.lista-livros ul li {
+  list-style: disc;
+}

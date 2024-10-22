@@ -7,13 +7,12 @@ const Produtos = () => {
         <div className="secao-produtos center">
           <h2 className="titulos">PRODUTOS</h2>
           <p>
-            Trabalhamos com livros de diversos gêneros: romance, suspense,
-            distopia, fantasia e muitos outros!
+            Descubra mundos novos em cada página e deixe sua imaginação voar! Em nossa livraria, oferecemos uma seleção cuidadosamente escolhida
+            de livros que inspiram, emocionam e transformam.
           </p>
 
           <p>
-            Todos os nossos preços são acessíveis e contam com a melhor
-            qualidade do mercado
+            Explore nossas categorias e encontre sua próxima grande leitura!
           </p>
 
           <div className="livros-imgs">
