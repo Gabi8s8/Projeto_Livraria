@@ -87,3 +87,20 @@
   list-style: disc;
   font-size: 1.1rem;
 }
+
+@media (max-width: 1080px) {
+  .livros-imgs {
+    margin: 50px 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .livros-imgs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-livros picture {
+    width: 20%;
+  }
+}

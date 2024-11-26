@@ -87,7 +87,7 @@ const Produtos = () => {
           </div>
         </div>
 
-        <div className="lista-livros center">
+        {/* <div className="lista-livros center">
           <p>Lendo livros você terá:</p>
           <ul>
             <li>Aumento do Conhecimento</li>
@@ -95,7 +95,7 @@ const Produtos = () => {
             <li>Estimulação da Criatividade</li>
             <li>Desenvolvimento do Pensamento Crítico</li>
           </ul>
-        </div>
+        </div> */}
       </section>
     );
 }

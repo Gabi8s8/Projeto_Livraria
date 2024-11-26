@@ -12,30 +12,36 @@ const SecaoSobre = () => {
           sempre com o objetivo de proporcionar ao cliente um bom atendiemnto,
           qualidade e preço baixo.
         </p>
-        <div className="elementos-sobre">
-          <picture>
-            <img src="./assets/livraria.png" alt="Nossa loja" />
-          </picture>
 
-          <div className="sobre-elementos primeiro-sobre">
+        <div className="elementos-sobre">
+          <div className="card-sobre-img">
+            <picture>
+              <img src="./assets/livraria.png" alt="Nossa loja" />
+            </picture>
+          </div>
+
+          <div className="card-sobre">
             <h4>NOSSAS FILIAIS</h4>
             <p>Hoje temos mais de 10 filiais pelo Brasil.</p>
           </div>
 
-          <div className="sobre-elementos">
+          <div className="card-sobre">
             <h4>ATENDIMENTO FLEXÍVEL</h4>
             <p>
-              Mossa equipe é treinada para te atender da melhor forma possível
+              Nossa equipe é treinada para te atender da melhor forma possível
             </p>
           </div>
 
-          <picture>
-            <img src="./assets/atendimento.jpg" alt="Atendimento" />
-          </picture>
+          <div className="card-sobre-img">
+            <picture>
+              <img src="./assets/atendimento.jpg" alt="Atendimento" />
+            </picture>
+          </div>
         </div>
+
       </div>
     </section>
   );
 };
 
-export default SecaoSobre;
+export default SecaoSobre; 
