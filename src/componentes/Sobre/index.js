@@ -9,7 +9,7 @@ const SecaoSobre = () => {
         <p>
           Fundada em 2022, em Caraguatatuba - São Paulo, a livraria iniciou suas
           atividades focando em incentivar a leitura para todos os públicos,
-          sempre com o objetivo de proporcionar ao cliente um bom atendiemnto,
+          sempre com o objetivo de proporcionar ao cliente um bom atendimento,
           qualidade e preço baixo.
         </p>
 

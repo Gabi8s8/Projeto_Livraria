@@ -12,11 +12,11 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">Produtos</a>
+              <a href="#produtos">Produtos</a>
             </li>
 
             <li>
-              <a href="#">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </li>
 
             <li>

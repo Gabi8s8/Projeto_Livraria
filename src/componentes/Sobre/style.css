@@ -1,6 +1,7 @@
 #sobre {
   background-color: #e0e3eb;
-  padding: 100px 0px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 .sobre {
@@ -45,8 +46,6 @@
   color: #3d3d3d;
 } */
 
-
-
 .elementos-sobre {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -90,7 +89,6 @@
   color: #3d3d3d;
 }
 
-
 /* Media Query */
 @media (max-width: 768px) {
   #sobre {
@@ -106,15 +104,19 @@
     font-size: 1.1rem;
   }
 
-  .sobre-elementos h4 {
+  .card-sobre h4 {
     font-size: 1.3rem;
+    line-height: 2.4;
+  }
 
+  .elementos-sobre {
+    margin: 50px 30px;
   }
 }
 
 @media (max-width: 590px) {
   .sobre-elementos h4 {
-      line-height: 1.4;
-      margin-bottom: 7px;
+    line-height: 1.4;
+    margin-bottom: 7px;
   }
 }
